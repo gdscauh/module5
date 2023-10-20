@@ -1,8 +1,8 @@
-export INSTANCE_NAME=nucleus-jumphost-983
-export ZONE=europe-west4-b
-export REGION=europe-west4
-export PORT=8080
-export FIREWALL_NAME=allow-tcp-rule-219
+export INSTANCE_NAME=
+export ZONE=
+export REGION=
+export PORT=
+export FIREWALL_NAME=
 
 gcloud compute instances create $INSTANCE_NAME \
           --network nucleus-vpc \
